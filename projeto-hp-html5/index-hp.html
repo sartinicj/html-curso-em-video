@@ -5,30 +5,22 @@
     <head>
         <meta charset="utf-8"/>
         <title>Tudo sobre Harry Potter</title>
-        <style>
-            p {
-                text-align: justify;
-                text-indent: 50px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
     </head>
     
     <body>
         <div id="interface">
             <header id="cabecalho">
-         
                 <hgroup>
                     <h1>Harry Potter</h1>
                     <h2>A magia de Harry Potter está chegando</h2>
                 </hgroup>
 
-                <img src="_imagens/oculos-hp-pequeno.png"/>
+                <img id="icone" src="_imagens/oculos-hp-pequeno.png"/>
 
-
-
-                <nav>
+                <nav id="menu">
                     <h1>Menu Principal</h1>
-                    <ul>
+                    <ul type="circle">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="specs.html">Especificações</a></li>
                         <li><a href="fotos.html">Fotos</a></li>
@@ -36,7 +28,6 @@
                         <li><a href="fale-conosco.html">Fale conosco</a></li>
                     </ul>
                 </nav>
-
             </header>
 
             <hgroup>
@@ -46,17 +37,21 @@
                 <h3>Atualizado em 26/Agosto/2021</h3>
             </hgroup>
 
-
             <p> Exemplos de <sup>formatação</sup></p>
             <p> Exemplos de <sub>formatação</sub></p>
             <p> x<sup>2</sup> e H<sub>2</sub>0</p>
             
-
             <h2>O que é</h2>
 
-            <p>O <span style="font-weight: bolder;">Harry Potter</span> é uma saga de livros que virou filme e se tornou uma paixão            mundial. Seus fãs também chamado de <a href="http://glass.google.com" target="_blank">Potterheadss</a>, o universo hoje conta com a leitura ddos capítulos em inglês que foi gravada pelos atores da saga atraves de vídeo&shy;con&shy;ferên&shy;cias. O lançamento de seus produtos acontece até hoje, e o preço sempre é muito alto. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
-
-[AQUI ENTRA UMA FOTO]
+            <p>O <span style="font-weight: bolder;">Harry Potter</span> é uma saga de livros que virou filme e se tornou uma paixão mundial. Seus fãs também chamado de <a href="https://www.dicionarioinformal.com.br/significado/potterhead/9605/" target="_blank">Potterheadss</a>, o universo hoje conta com a leitura ddos capítulos em inglês que foi gravada pelos atores da saga atraves de vídeo&shy;con&shy;ferên&shy;cias. O lançamento de seus produtos acontece até hoje, e o preço sempre é muito alto. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+        
+            <figure class="foto-legenda">
+                <img src="_imagens/foto01.jpg"/>
+                <figcaption>
+                    <h3>Logotipo reconhecido multiversalmente</h3>
+                    <p>Não só nouniverso bruxo como humano/trouxa</p>
+                </figcaption>
+            </figure>
 
             <h1>Data de lançamento</h1>
             <p><h3>A sequencia de lançamento dos livros x Filmes foram:</h3><br>
@@ -78,8 +73,7 @@
             </p>
 
             <h1>Especificações</h1>
-            <p>Tabela Técnica das casas
-<br>
+            <p>Tabela Técnica das casas<br>
             <b>Lufa - Lufa</b>: Casa dos distraídos e criativos<br>
             <i>Sonserina</i>: Casa dos destemidos e irreverentes<br>
             <i><b>Corvinal</b></i>: Casa dos sábios e ponderados<br>
