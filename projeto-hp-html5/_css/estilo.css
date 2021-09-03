@@ -6,6 +6,7 @@
 }
 
 body {
+    font-family: Georgia, Arial;
     background-color: rgba(157, 63, 63, 0.5);
     color:#aa0000;
 }
@@ -128,6 +129,33 @@ section#corpo{
     float: left;
     border-right: 1px dashed black;
     padding-right: 20px;
+}
+
+article#noticia-principal h2{
+    font-size: 12pt;
+    color:darkgoldenrod;
+    background-color: maroon;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#titulo-artigo h1{
+    font-family: 'FonteLogo', 'sans-serif';
+    font-size: 200pt;
+    color:rgb(35, 245, 53);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#titulo-artigo h2{
+    font-size: 200pt;
+    color:rgb(17, 80, 22);
+    margin: 0px;
+}
+header#titulo-artigo h3{
+    font-size: 200pt;
+    color:rgb(18, 114, 9);
+
 }
 
 table#tabelalivxfil{
