@@ -1,14 +1,34 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
 
-[AQUI ENTRA UMA FOTO]
+<html lang="pt-br">
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tudo sobre Harry Potter</title>
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    </head>
+    <script src="_javascript/funcoes.js"></script>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Harry Potter</h1>
+                    <h2>Todo o meu conhecimento de Harry Potter</h2>
+                </hgroup>
+
+                <img id="icone" src="_imagens/chapeu-seletor-ico.png"/>
+
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul type="circle">
+                        <li onmouseover="mudaFoto('_imagens/home.jpg')" onmouseout="mudaFoto('_imagens/fale.jpg')"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/espec.png')" onmouseout="mudaFoto('_imagens/fale.jpg')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fale.jpg')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/multi.jpg')" onmouseout="mudaFoto('_imagens/fale.jpg')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fale.jpg')" onmouseout="mudaFoto('_imagens/fale.jpg')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
 
 Fale Conosco > Contato
 Formulário de Contato
